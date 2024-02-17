@@ -1,17 +1,9 @@
-import about_img_1 from "../images/restaurant chef B.jpg";
-import about_img_2 from "../images/lemon dessert.jpg";
-
 function About() {
   return (
     <section className="about">
-      <div className="about_text">
-        <h1>JuiceHaven</h1>
-        <h3>Express</h3>
-        <p>
-          JuiceHaven Express is an innovative concept that aims to bring fresh
-          juice, smoothies, and pastries to the bustling urban landscape of
-          Nigeria.
-        </p>
+      <div className="benefit_text">
+        <h3>Why choose us</h3>
+        <h1>Fruit Juice enrich your body with nutrients and proteins</h1>
         <p>
           JuiceHaven Express is an innovative concept that aims to bring fresh
           juice, smoothies, and pastries to the bustling urban landscape of
@@ -21,8 +13,33 @@ function About() {
         <button className="button">Read more</button>
       </div>
       <div className="about_image">
-        <img src={about_img_1} alt="caterer one" />
-        <img src={about_img_2} alt="caterer two" />
+        <div>
+          <img src="" alt="organic fruit" />
+          <h4>100% Organic fruit juice & vegetable</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+            voluptatum
+          </p>
+        </div>
+        <div>
+          <img src="" alt="organic fruit" />
+          <h4>100% Organic fruit juice & vegetable</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+            voluptatum
+          </p>
+        </div>
+        <div>
+          <img src="" alt="organic fruit" />
+          <h4>100% Organic fruit juice & vegetable</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+            voluptatum
+          </p>
+        </div>
       </div>
     </section>
   );

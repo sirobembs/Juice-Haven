@@ -1,7 +1,9 @@
+import "./Nav.css";
+
 function Nav() {
   return (
-    <nav>
-      <ul>
+    <nav className="Nav">
+      <ul className="Nav-items">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -16,9 +18,6 @@ function Nav() {
         </li>
         <li>
           <a href="#online_order">Online Order</a>
-        </li>
-        <li>
-          <a href="#log_in">Log In</a>
         </li>
       </ul>
     </nav>

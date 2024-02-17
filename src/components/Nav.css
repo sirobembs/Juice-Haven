@@ -1,0 +1,15 @@
+.Nav-items {
+  display: flex;
+  text-decoration: none;
+}
+
+.Nav-items li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.Nav-items li a {
+  text-decoration: none;
+  color: #495e47;
+  font-weight: bold;
+}

@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main>
+    <main className="App">
       <Header />
       <Body />
       <Footer />

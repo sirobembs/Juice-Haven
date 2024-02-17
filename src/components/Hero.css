@@ -1,0 +1,28 @@
+.Hero {
+  background-color: #495e47;
+  display: flex;
+  padding: 0 15rem;
+  justify-items: space-around;
+  height: 80vh;
+  color: #fff;
+}
+
+.hero-text {
+  text-align: left;
+  width: 100%;
+  margin: 10% 0;
+}
+
+.hero-body-text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image-main {
+  width: 45rem;
+}
