@@ -1,5 +1,4 @@
 .Hero {
-  background-color: #495e47;
   display: flex;
   padding: 0 15rem;
   justify-items: space-around;
@@ -25,4 +24,35 @@
 
 .hero-image-main {
   width: 45rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero {
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 100vh;
+  }
+  .hero-image-main {
+    width: 22rem;
+  }
+  .hero-text {
+    text-align: left;
+    width: 100%;
+    margin: 5rem 0;
+  }
+
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-text h3 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero-body-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+  }
 }

@@ -1,25 +1,28 @@
 import cart from "../images/cart.svg";
 import wishlist from "../images/wishlist.svg";
+import "./Juice.css";
 
 function Juice({ image, price, juice_name, juice_dsc }) {
   return (
     <div className="product">
       <div>
         <div className="price">
-          <h3>{price}</h3>
+          <h4>{price}</h4>
           <p>750ml</p>
         </div>
-        <img src={image} alt="orange_juice"></img>
+        <div>
+          <img className="product-img" src={image} alt="orange_juice"></img>
+        </div>
       </div>
-      <div>
-        <h3>{juice_name}</h3>
+      <div className="product-name">
+        <h4>{juice_name}</h4>
         <p>{juice_dsc}</p>
-        <div className="button">
-          <button>
+        <div className="product-cart">
+          <button className="product-button">
             <img src={cart} alt="cart icon" />
-            Add to cart
+            <p>Add to cart</p>
           </button>
-          <img src={wishlist} alt="wishlist" />
+          <img className="product-wishlist" src={wishlist} alt="wishlist" />
         </div>
       </div>
     </div>

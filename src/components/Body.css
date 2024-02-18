@@ -1,0 +1,37 @@
+.Body {
+}
+
+.Hero-section {
+  background-color: #495e47;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.product-section {
+  padding: 5rem 15rem;
+}
+
+.product-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-section {
+    padding: 5rem 2rem;
+  }
+
+  .product-title h3 {
+    font-size: 1rem;
+  }
+}
