@@ -12,7 +12,7 @@ function Body(props) {
         <Hero />
       </section>
       <section className="product-section">
-        <div className="product-title">
+        <div id="menu" className="product-title">
           <h3>This week special! </h3>
           <button>Online Menu</button>
         </div>

@@ -1,25 +1,32 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
+import logo from "../images/Logo.svg";
 
 function Nav() {
   return (
     <nav className="Nav">
+      <img src={logo} className="logo" alt="App Logo" />
       <ul className="Nav-items">
         <li>
-          <a href="#home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#menu">Menu</a>
+          <Link to="/menu">Menu</Link>
         </li>
         <li>
-          <a href="#reservation">Reservation</a>
+          <Link to="/reservation">reservation</Link>
         </li>
         <li>
-          <a href="#online_order">Online Order</a>
+          <Link to="/onlineorder">Online Order</Link>
         </li>
       </ul>
+      <button className="login-button">
+        <a href="#log_in">Log In</a>
+      </button>
     </nav>
   );
 }

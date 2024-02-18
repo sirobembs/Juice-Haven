@@ -1,6 +1,7 @@
 .Nav-items {
   display: flex;
   text-decoration: none;
+  justify-content: start;
 }
 
 .Nav-items li {
@@ -12,4 +13,10 @@
   text-decoration: none;
   color: #495e47;
   font-weight: bold;
+}
+
+.Nav {
+  display: flex;
+  padding: 1.2rem 0;
+  justify-content: space-around;
 }

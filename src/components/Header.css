@@ -1,14 +1,12 @@
 .Header {
-  display: flex;
-  justify-content: space-around;
   padding: 1.2rem 0;
 }
 
-.login-button {
+/* .login-button {
   font-size: 0.8rem;
 }
 
 a {
   text-decoration: none;
   color: black;
-}
+} */

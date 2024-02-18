@@ -1,16 +1,15 @@
 import logo from "../images/Logo .svg";
 import Nav from "../components/Nav";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div>
         <img src={logo} alt="little lemon logo" />
         <p>Top fruit hut</p>
       </div>
-      <div>
-        <Nav />
-      </div>
+      <div></div>
       <div>
         <h5>Locate Us</h5>
         <p>14, Jimoh Balogun Street. Lagos, Nigeria</p>
