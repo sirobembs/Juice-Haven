@@ -1,15 +1,16 @@
 import star from "../images/Star.svg";
+import "./Testi.css";
 
 function Testi({ image, name, review }) {
   return (
-    <div>
-      <img src={image} alt="avatar" />
-      <div>
+    <div className="testi-single">
+      <img className="testi-img" src={image} alt="avatar" />
+      <div className="testi-name">
         <h2>{name}</h2>
         <img src={star} alt="review star" />
       </div>
 
-      <p>{review}</p>
+      <p className="review">{review}</p>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.testi-single {
+  background-color: #495e47;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 0.8rem;
+  color: white;
+  height: 19rem;
+}
+
+.testi-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testi-img {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+.review {
+  line-height: 1.5rem;
+  text-align: left;
+}

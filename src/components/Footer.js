@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer-section">
       <div>
         <img src={logo} alt="little lemon logo" />
         <p>Top fruit hut</p>

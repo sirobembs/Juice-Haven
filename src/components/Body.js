@@ -43,10 +43,10 @@ function Body(props) {
           />
         </div>
       </section>
-      <section>
+      <section className="testimonial-section">
         <Testimonial />
       </section>
-      <section>
+      <section className="about-section">
         <About />
       </section>
     </body>
