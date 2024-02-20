@@ -1,8 +1,8 @@
 .footer-section {
   display: flex;
-  /* margin: 0 15rem; */
   justify-content: space-around;
   padding: 10rem;
   background-color: #495e47;
   color: #fff;
+  text-align: left;
 }
